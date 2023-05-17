@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             <span>Chirp</span>
           </div>
           <div className="navbar-end flex gap-2">
-            {!user.isSignedIn && <SignInButton className="btn btn-primary"></SignInButton> }
+            {!user.isSignedIn && <div className="btn"><SignInButton ></SignInButton></div> }
             <UserButton></UserButton>
           </div>
         </div>
